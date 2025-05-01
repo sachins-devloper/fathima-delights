@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fathima delights</title>
+
+    <!-- Awesome icon CDN ==> for icons from third party -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/CSS/stylesheet.css" />
+  </head>
+  <body>
+    <!-- Whole page container ==> "wrap-container" -->
+    <div class="wrap-container">
+      <!-- Header -->
+      <header class="header">
+        <!-- logo div -->
+        <div class="header-logo">
+          <a href="index.html">
+            <h3 class="logo-title lato-light">Fathima delights</h3>
+          </a>
+        </div>
+
+        <!-- Navbar div -->
+        <nav class="header-navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+
+        <!-- Search bar div -->
+        <form class="header-search-bar">
+          <input
+            class=""
+            type="search"
+            placeholder="Search"
+            aria-label="Search" />
+          <button class="search-bar-btn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <!-- Cart and Sign In - user -->
+        <div class="header-cart-sign">
+          <a href="">
+            <i class="fa-solid fa-cart-shopping">
+              <div class="noi">3</div>
+            </i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </div>
+      </header>
+
+      <!-- Main Banner Long img -->
+      <section class="main-banner">
+        <figure class="main-banner-img">
+          <img src="Asserts/banner_img.png" alt="" />
+        </figure>
+      </section>
+
+      <!-- MAIN - product showcase -->
+
+      <main class="main-container">
+        <!-- sidebar for product filter -->
+        <aside class="sidebar">
+          <h2>By Title</h2>
+          <input type="text" placeholder="Search for product title" />
+          <button>FILTER</button>
+
+          <h2>By Price</h2>
+          <input type="range" min="49" max="2200" />
+          <p>Price: Rs. 49 — Rs. 2200</p>
+          <button>FILTER</button>
+        </aside>
+
+        <!-- Product list overall container ==> product-list -->
+        <section class="product-list">
+          <!-- product (each)==> Traditional HTML (repeated) -->
+          <!-- ======= Product 1 ======= -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="Asserts/img-1.jpeg" alt="M&M Peanut" />
+              <div class="badge">-40%</div>
+            </div>
+
+            <!-- Add to cart bar container -->
+            <div class="product-actions">
+              <button class="qty-btn">-</button>
+              <span>1</span>
+              <button class="qty-btn">+</button>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <h3>Product 1</h3>
+            <
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i>
+              <span>3 reviews</span>
+            </div>
+            <p class="old-price">Rs. 600.00</p>
+            <p class="new-price">Rs. 260.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="Asserts/img-2.jpeg" alt="M&M Peanut" />
+              <div class="badge">-30%</div>
+            </div>
+            <div class="product-actions">
+              <button class="qty-btn">-</button>
+              <span>1</span>
+              <button class="qty-btn">+</button>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- ======= Product 2 ======= -->
+
+            <h3>Product 2</h3>
+            <div class="rating">
+              <i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i>
+              <span>No reviews</span>
+            </div>
+            <p class="old-price">Rs. 400.00</p>
+            <p class="new-price">Rs. 160.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZnPlawrR23ZJl3o9CL6EkjBmP_E88nX2ayQ&s"
+                alt="M&M Peanut" />
+              <div class="badge">-37%</div>
+            </div>
+            <div class="product-actions">
+              <button class="qty-btn">-</button>
+              <span>1</span>
+              <button class="qty-btn">+</button>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- ======= Product 3 ======= -->
+
+            <h3>Product 3</h3>
+            <div class="rating">
+              <i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i>
+              <span>No reviews</span>
+            </div>
+            <p class="old-price">Rs. 300.00</p>
+            <p class="new-price">Rs. 140.00</p>
+          </div>
+
+          <!-- ======= Product 4 ======= -->
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbF_hFxcCQ8hTmZPHdFlqXxusM3XEr40lsYQ&s"
+                alt="M&M Peanut" />
+              <div class="badge">-70%</div>
+            </div>
+            <div class="product-actions">
+              <button class="qty-btn">-</button>
+              <span>1</span>
+              <button class="qty-btn">+</button>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <h3>Product 4</h3>
+            <div class="rating">
+              <i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i>
+              <span>No reviews</span>
+            </div>
+            <p class="old-price">Rs. 700.00</p>
+            <p class="new-price">Rs. 460.00</p>
+          </div>
+
+          <!-- ======= Product 5 ======= -->
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://www.inkatrinaskitchen.com/wp-content/uploads/2021/01/Chocolate-Overload-Cake-10-wm-1360.jpg"
+                alt="M&M Peanut" />
+              <div class="badge">-20%</div>
+            </div>
+            <div class="product-actions">
+              <button class="qty-btn">-</button>
+              <span>1</span>
+              <button class="qty-btn">+</button>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <h3>Product 5</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i>
+              <span>3 reviews</span>
+            </div>
+            <p class="old-price">Rs. 800.00</p>
+            <p class="new-price">Rs. 660.00</p>
+          </div>
+
+          <!-- ======= Product 6 ======= -->
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2hRzebtWZWEUGkdsH3am1CTWqcXgQDTiU2w&s"
+                alt="M&M Peanut" />
+              <div class="badge">-20%</div>
+            </div>
+            <div class="product-actions">
+              <button class="qty-btn">-</button>
+              <span>1</span>
+              <button class="qty-btn">+</button>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <h3>Product 6</h3>
+            <div class="rating">
+              <i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i>
+              <span>No reviews</span>
+            </div>
+            <p class="old-price">Rs. 600.00</p>
+            <p class="new-price">Rs. 200.00</p>
+          </div>
+        </section>
+      </main>
+      <hr style="width: 92%; margin: auto;" />
+
+      <section class="testimonials">
+        <h2>What People Are Saying</h2>
+        <div class="testimonial-container">
+          <div class="testimonial">
+            <i class="fa-solid fa-quote-right"></i>
+            <p>
+              Awesome authenticity and on time delivery what else one could ask
+              for ...full value for money. Loved the flavour of Leonidas Milk
+              Almonds & Sea Salt Bar 100g, it was delicious.
+            </p>
+            <div class="stars">★★★★★</div>
+            <h4>Arun A</h4>
+          </div>
+
+          <div class="testimonial">
+            <i class="fa-solid fa-quote-right"></i>
+            <p>
+              I bought Rhine Valley Crunchy Milk Caramel 100g, this was an
+              absolute delight of a flavour. Wouldn't hesitate to buy again.
+            </p>
+            <div class="stars">★★★★★</div>
+            <h4>Merlin Agnes</h4>
+          </div>
+
+          <div class="testimonial">
+            <i class="fa-solid fa-quote-right"></i>
+            <p>
+              It's excellent chocolate. I rarely love chocolates but once I
+              tried Venchi it was a delight, I received the chocolates in good
+              original condition and it has not got melted. Thank you Fathima
+              delights. <br />I will surely buy again!!
+            </p>
+            <div class="stars">★★★★★</div>
+            <h4>Rakshana</h4>
+          </div>
+        </div>
+      </section>
+      <hr style="width: 92%; margin: auto;">
+
+      <!-- Quick links section -->
+      <section class="quick-links">
+        <div class="quick-links-container">
+          <div class="quick-links-column about">
+            <img
+              src="Asserts/quick-links-img.jpeg"
+              alt="Fathima delights Logo"
+              class="quick-links-logo" />
+
+            <p>
+              Fathima delights is one of the best retailer and official
+              distributor of Imported Chocolates. All our products are 100%
+              authentic and sourced directly from brands.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+
+          <div class="quick-links-column">
+            <h4>SWEET SELECTIONS</h4>
+            <ul>
+              <li><a href="#">Milk Chocolates</a></li>
+              <li><a href="#">Dark Chocolates</a></li>
+              <li><a href="#">White Chocolates</a></li>
+              <li><a href="#">Biscuits & Spreads</a></li>
+              <li><a href="#">Coffee & Hot Chocolate</a></li>
+              <li><a href="#">Protein & Energy Bars</a></li>
+              <li><a href="#">Vegan Chocolates</a></li>
+            </ul>
+          </div>
+
+          <div class="quick-links-column">
+            <h4>USEFUL LINKS</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Track Your Order</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Return & Refund Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="quick-links-contact">
+            <h4>GET IN TOUCH</h4>
+            <p>Phone: 18001202278</p>
+            <p>Email: hello@fathimadelights.com</p>
+            <p>Location: Coimbatore</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+
+      <footer class="footer-bottom">
+        <p>&copy; 2025 Fathima delights. All rights reserved.</p>
+        <button
+          class="back-to-top"
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+          <i class="fas fa-chevron-up"></i>
+        </button>
+      </footer>
+    </div>
+  </body>
+</html>
