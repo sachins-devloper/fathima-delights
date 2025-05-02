@@ -1,0 +1,11 @@
+May---1: 
+    ==> index page full & full designed in html and css 
+
+
+
+May---2:
+     ==> products are list in product.js as Js file named "product.js" then exported the data and imported in main.js for generated html to the product cart container .
+
+     ==> sums the quantity of each product in Main cart
+
+     ==> Feedback also included in HTML generation for more feeds handle
